@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "User%20Posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Username",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TimeStamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
