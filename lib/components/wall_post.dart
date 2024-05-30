@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:project2/components/like_button.dart';
+import '../components/like_button.dart';
 
 class WallPost extends StatefulWidget {
   final String message;
